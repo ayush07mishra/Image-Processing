@@ -17,8 +17,6 @@ st.header("Ask anything about that image")
 input=st.text_input("input")
 
 
-
-
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""   
 if uploaded_file is not None:
