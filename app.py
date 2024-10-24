@@ -3,7 +3,6 @@ load_dotenv()
 import streamlit as st
 import google.generativeai as genai
 from PIL import Image
-
 genai.configure(api_key="AIzaSyC0paxo3tE16gt74csgmAARMS9n7lv7YHc")
 model=genai.GenerativeModel("gemini-pro-vision")# use for image 
 def get_genereate(quesiton,image):
